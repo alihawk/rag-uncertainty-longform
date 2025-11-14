@@ -1,0 +1,16 @@
+[project]
+name = "rag-uncertainty-longform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.11.0",
+    "iprogress>=0.4",
+    "ipywidgets>=8.1.8",
+    "langchain>=1.0.5",
+    "langchain-ollama>=1.0.0",
+    "polars>=1.35.2",
+    "pyserini>=1.3.0",
+    "sentence-transformers>=5.1.2",
+]
