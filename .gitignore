@@ -1,0 +1,72 @@
+# -----------------------------
+# PYTHON
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.so
+*.egg-info/
+.env/
+.venv/
+venv/
+*.swp
+
+# -----------------------------
+# NOTEBOOKS
+# -----------------------------
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# -----------------------------
+# DATA & INDEXES
+# (keep small sample files only)
+# -----------------------------
+data/wiki18/*
+!data/wiki18/README.md
+!data/wiki18/*.jsonl
+
+index/*
+!index/README.md
+
+models/
+logs/
+runs/
+outputs/
+results/
+checkpoints/
+tmp/
+
+# -----------------------------
+# HUGGINGFACE CACHE
+# -----------------------------
+**/huggingface/
+~/.cache/huggingface/
+
+# -----------------------------
+# LUCENE / BM25
+# -----------------------------
+index/bm25_small/*
+index/*/write.lock
+
+# -----------------------------
+# SYSTEM FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# -----------------------------
+# LARGE GENERATED FILES
+# -----------------------------
+*.csv
+*.jsonl
+*.zip
+*.tar.gz
+*.pt
+*.bin
+*.h5

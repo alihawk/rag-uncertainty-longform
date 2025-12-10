@@ -1,0 +1,8 @@
+datasets
+pyserini==0.35.0
+sentence-transformers
+pandas
+numpy
+scipy
+matplotlib
+mlx-lm
