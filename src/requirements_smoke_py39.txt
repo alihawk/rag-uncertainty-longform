@@ -1,0 +1,18 @@
+# Py3.9-compatible stack for retrieval-only smoke
+numpy==1.26.4
+faiss-cpu==1.7.4
+pyserini==0.22.1
+tqdm>=4.66
+requests>=2.31
+pyyaml>=6.0
+filelock>=3.12
+huggingface_hub==0.22.2
+hf_transfer==0.1.9
+
+# If you will NOT do generation on HPC yet, you can omit transformers entirely.
+# Otherwise, keep a Py3.9-friendly version:
+transformers==4.38.2
+accelerate==0.28.0
+sentencepiece>=0.1.99
+
+# bitsandbytes likely won’t have wheels for CUDA 13 yet on this cluster; skip it for now.
