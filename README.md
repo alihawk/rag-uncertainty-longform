@@ -33,13 +33,14 @@ We evaluate three uncertainty estimation approaches:
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/rag-uncertainty-longform.git
+git clone --recurse-submodules https://github.com/alihawk/rag-uncertainty-longform.git
 cd rag-uncertainty-longform
 ```
 
 Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r src/requirements_smoke.txt
+# Python 3.9 (e.g. HPC cluster): pip install -r src/requirements_smoke_py39.txt
 ```
 
 ## Pipeline Components
