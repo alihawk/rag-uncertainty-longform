@@ -1,0 +1,3 @@
+[submodule "src/TruthTorchLM"]
+	path = src/TruthTorchLM
+	url = https://github.com/Rijkkie/TruthTorchLM.git
